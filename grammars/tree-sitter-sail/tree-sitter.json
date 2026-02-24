@@ -1,0 +1,41 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "sail",
+      "camelcase": "Sail",
+      "title": "Sail",
+      "scope": "source.sail",
+      "file-types": [
+        "sail"
+      ],
+      "injection-regex": "^sail$",
+      "class-name": "TreeSitterSail"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Minimal Sail grammar for Zed extension",
+    "authors": [
+      {
+        "name": "lunarwall",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/rems-project/sail",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}

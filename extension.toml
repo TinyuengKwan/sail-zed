@@ -1,0 +1,13 @@
+id = "sail"
+name = "Sail"
+description = "Sail language support."
+version = "0.1.0"
+schema_version = 1
+authors = ["lunarwall"]
+repository = "https://github.com/rems-project/sail"
+
+[grammars.sail]
+repository = "https://github.com/rems-project/sail"
+# Replace this after publishing the embedded grammar path in the upstream repo.
+commit = "0bf959ae68d28a8c5531d367c318c38792fad414"
+path = "sail-zed/grammars/tree-sitter-sail"

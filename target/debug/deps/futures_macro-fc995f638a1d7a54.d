@@ -1,0 +1,9 @@
+/home/lunarwall/workplace/sail-zed/target/debug/deps/futures_macro-fc995f638a1d7a54.d: /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/lib.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/executor.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/join.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/select.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/stream_select.rs
+
+/home/lunarwall/workplace/sail-zed/target/debug/deps/libfutures_macro-fc995f638a1d7a54.so: /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/lib.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/executor.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/join.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/select.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/stream_select.rs
+
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/lib.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/executor.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/join.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/select.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-macro-0.3.32/src/stream_select.rs:

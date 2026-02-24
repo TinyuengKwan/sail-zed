@@ -1,0 +1,16 @@
+{
+  "name": "tree-sitter-sail",
+  "version": "0.1.0",
+  "description": "Minimal Tree-sitter grammar for Sail (embedded in sail-zed)",
+  "type": "module",
+  "main": "grammar.js",
+  "keywords": ["parser", "tree-sitter", "sail"],
+  "license": "MIT",
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.22.6"
+  }
+}

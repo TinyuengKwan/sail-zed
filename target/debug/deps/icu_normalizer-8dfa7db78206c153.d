@@ -1,0 +1,10 @@
+/home/lunarwall/workplace/sail-zed/target/debug/deps/icu_normalizer-8dfa7db78206c153.d: /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/lib.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/properties.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/provider.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/uts46.rs
+
+/home/lunarwall/workplace/sail-zed/target/debug/deps/libicu_normalizer-8dfa7db78206c153.rlib: /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/lib.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/properties.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/provider.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/uts46.rs
+
+/home/lunarwall/workplace/sail-zed/target/debug/deps/libicu_normalizer-8dfa7db78206c153.rmeta: /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/lib.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/properties.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/provider.rs /home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/uts46.rs
+
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/lib.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/properties.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/provider.rs:
+/home/lunarwall/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/icu_normalizer-2.1.1/src/uts46.rs:

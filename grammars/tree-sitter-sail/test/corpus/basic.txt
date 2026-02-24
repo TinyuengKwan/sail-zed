@@ -1,0 +1,149 @@
+==================
+Declarations and Expressions
+==================
+
+val add : int -> int -> int
+function add(x, y) = if x == y then x else x + y
+let z = add(1, 2)
+
+type word = int
+union instr = Nop | Add(int, int)
+
+function eval(i) = match i with | Nop => 0 | Add(a, b) => a + b
+
+---
+
+(source_file
+  (val_declaration
+    name: (identifier)
+    type: (type_expression
+      (function_type
+        from: (identifier)
+        to: (type_expression
+          (function_type
+            from: (identifier)
+            to: (type_expression
+              (identifier)))))))
+  (function_declaration
+    name: (identifier)
+    parameters: (parameter_list
+      parameter: (identifier)
+      parameter: (identifier))
+    body: (if_expression
+      condition: (binary_expression
+        (identifier)
+        (identifier))
+      consequence: (identifier)
+      alternative: (binary_expression
+        (identifier)
+        (identifier))))
+  (let_declaration
+    name: (identifier)
+    value: (call_expression
+      function: (identifier)
+      argument: (number)
+      argument: (number)))
+  (type_declaration
+    name: (identifier)
+    value: (type_expression
+      (identifier)))
+  (union_declaration
+    name: (identifier)
+    constructor: (constructor
+      name: (identifier))
+    constructor: (constructor
+      name: (identifier)
+      (type_expression
+        (identifier))
+      (type_expression
+        (identifier))))
+  (function_declaration
+    name: (identifier)
+    parameters: (parameter_list
+      parameter: (identifier))
+    body: (match_expression
+      value: (identifier)
+      (match_case
+        pattern: (constructor_pattern
+          name: (identifier))
+        body: (case_body_expression
+          (number)))
+      (match_case
+        pattern: (constructor_pattern
+          name: (identifier)
+          (constructor_pattern
+            name: (identifier))
+          (constructor_pattern
+            name: (identifier)))
+        body: (case_body_expression
+          (binary_expression
+            (identifier)
+            (identifier)))))))
+
+==================
+Struct Enum Register Overload
+==================
+
+struct cfg = { xlen : int, has_mmu : bool }
+enum mode = { User, Supervisor, Machine }
+register pc : int = 0
+overload size = { sizeof, bitsize }
+
+function step(st) =
+  let next = { pc = st.pc + 4, mode = User } in
+  if next.pc >= 4 then next.pc else 0
+
+---
+
+(source_file
+  (struct_declaration
+    name: (identifier)
+    (field_type
+      name: (identifier)
+      type: (type_expression
+        (identifier)))
+    (field_type
+      name: (identifier)
+      type: (type_expression
+        (identifier))))
+  (enum_declaration
+    name: (identifier)
+    variant: (identifier)
+    variant: (identifier)
+    variant: (identifier))
+  (register_declaration
+    name: (identifier)
+    type: (type_expression
+      (identifier))
+    value: (number))
+  (overload_declaration
+    name: (identifier)
+    member: (identifier)
+    member: (identifier))
+  (function_declaration
+    name: (identifier)
+    parameters: (parameter_list
+      parameter: (identifier))
+    body: (let_in_expression
+      name: (identifier)
+      value: (record_expression
+        (field_assignment
+          name: (identifier)
+          value: (binary_expression
+            (field_expression
+              target: (identifier)
+              field: (identifier))
+            (number)))
+        (field_assignment
+          name: (identifier)
+          value: (identifier)))
+      body: (if_expression
+        condition: (binary_expression
+          (field_expression
+            target: (identifier)
+            field: (identifier))
+          (number))
+        consequence: (field_expression
+          target: (identifier)
+          field: (identifier))
+        alternative: (number)))))
